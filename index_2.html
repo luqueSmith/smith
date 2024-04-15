@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPRESAS TELECOMUNICACIONES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/estilo.css">
+    <link rel="icon" href="img/visual-basic.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <style>
+        nav {
+            position: fixed;
+            z-index: 100;
+            position: sticky;
+            width: 100%;
+        }
+
+        h2 {
+            color: aliceblue;
+        }
+
+        p {
+            color: aliceblue;
+        }
+
+        ul {
+            color: aliceblue;
+        }
+
+        body {
+            background-image: url(img/fondo_epico.jpg);
+            cursor: url(img/cursor/azul.png) 0 0 ,auto;
+        }
+
+        @media (min-width: 769px) {
+            .img_banner {
+                src: "https://m.media-amazon.com/images/I/81g2Edet-PL._AC_UF350,350_QL80_.jpg";
+            }
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+            background-color: #ffffff;
+            color: #7009ff;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #190751;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #005f8f;
+        }
+
+        .inimacion_img {
+            transition: transform 0.2s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .inimacion_img_principal {
+            transition: transform 0.2s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .inimacion_img_principal {
+            transition: transform 0.2s ease-in-out;
+
+            &:active {
+                transform: scale(1.3);
+                background-color: #ffffff;
+                position: absolute;
+
+            }
+        }
+
+        .inimacion_img_menu {
+            transition: transform 0.2s ease-in-out;
+
+            &:hover {
+                transform: scale(1.3);
+                background-color: #00bdec;
+                border-radius: 40px;
+                color: rgb(255, 15, 15);
+            }
+        }
+
+        .imagen-contenedor {
+            background-image: url("imagen-grande.jpg");
+            background-size: cover;
+            background-position: center center;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .imagen-contenedor {
+                background-image: url("imagen-pequena.jpg");
+            }
+        }
+    </style>
+</head>
+
+<body">
+
+
+    <nav class="navbar navbar-expand-lg position-fixed z-10" style="background-color: rgb(1, 16, 41);">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="index.html"><img class="img_senati_logo" src="img/ICONS/senati.png"
+                    alt="img" width="50"> Senati</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contenido
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: rgb(181, 214, 255);">
+                            <li><a class="dropdown-item" href="#">Home</a></li>
+                            <li><a class="dropdown-item" href="#titulo01">Web de Computación y Telecomunicaciones</a></li>
+                            <li><a class="dropdown-item" href="#titulo02">Beneficios de una empresa de computación</a></li>
+                            <li><a class="dropdown-item" href="#titulo03">Impacto de la WCT en la sociedad</a></li>
+                            <li><a class="dropdown-item" href="#titulo04">Empresas De telecomunicaciones</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="separar_texto nav-link active rounded-pill inimacion_img_menu" aria-current="page"
+                            href="#" style="color: red;"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white inimacion_img_menu" href="html/contactanos.html">Contactanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white inimacion_img_menu" href="html/servicio.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white inimacion_img_menu" href="html/ayuda.html">Ayuda</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <!-------------------------------------------------------- Carusel---------------------------------------------------------------------->
+    <div id="carouselExample" class="carousel slide z-1">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <picture>
+                    <source srcset="img/Banner/banner_movil_1.png" media="(max-width: 600px)">
+                    <img src="img/Banner/banner_1.png" class="imagen-grande img_banner d-block w-100" alt="...">
+                </picture>
+            </div>
+            <div class="carousel-item">
+                <picture>
+                    <source srcset="img/Banner/banner_movil_2.png" media="(max-width: 900px)">
+                    <img src="img/Banner/banner_2.png" class="imagen-grande img_banner d-block w-100" alt="...">
+                </picture>
+            </div>
+            <div class="carousel-item">
+                <picture>
+                    <source srcset="img/Banner/banner_movil_3.png" media="(max-width: 600px)">
+                    <img src="img/Banner/banner_3.png" class="imagen-grande img_banner d-block w-100" alt="...">
+                </picture>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="dir_lista">
+        <p class="parrafo_principal">Las empresas de telecomunicaciones son las que nos permiten comunicarnos a
+            distancia. Ofrecen telefonía, internet, televisión y otros servicios. Son importantes para el
+            desarrollo económico y social, aunque enfrentan el reto de aumentar la cobertura y adaptarse a las
+            nuevas tecnologías.
+    </div>
+    <br>
+    <hr size="20" style="color: rgb(255, 255, 255);">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Imagenes adaptadas a Moviles -->
+    <div class="row">
+        <div class="col-sm-4">
+            <picture>
+                <source srcset="img/ICONS/informatica.png" width="120px" media="(max-width: 600px)" style="padding-left: 20%;">
+                <img class="inimacion_img_principal" src="img/ICONS/informatica.png" alt="informatica" width="60%" style="margin-left: 2%;">
+            </picture>
+        </div>
+        <div class="col-sm-4">
+            <picture>
+                <source srcset="img/ICONS/hacker.png" width="120px" media="(max-width: 600px)" style="padding-left: 20%;">
+                <img class="inimacion_img_principal" src="img/ICONS/hacker.png" alt="informatica" width="60%" style="margin-left: 2%;">
+            </picture>
+        </div>
+        <div class="col-sm-4">
+            <picture>
+                <source srcset="img/ICONS/informatica (1).png" width="120px" media="(max-width: 600px)" style="padding-left: 20%;">
+                <img class="inimacion_img_principal" src="img/ICONS/informatica (1).png" alt="informatica" width="60%" style="margin-left: 2%;">
+            </picture>
+        </div>
+    </div>
+    <br>
+
+
+    <br>
+
+    <br>
+    <br id="titulo01">
+    <br>
+    <br>
+    <h1 class="text_principal_2 text-white" style="background-color: rgb(1, 1, 68);">Web de Computación y
+        Telecomunicaciones <br> </h1>
+
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section id="introduccion">
+            <h2>¿Que es esta de Computacion y Telecomunicaciones?</h2>
+            <br>
+            <br>
+            <p class="parrafo_todo text-center">La Web de Computación y Telecomunicaciones (WCT) es un ecosistema
+                complejo e
+                interdependiente que abarca dos áreas tecnológicas
+            <p>
+                fundamentales: la informática y las telecomunicaciones. Juntas, estas áreas forman la base de la
+                sociedad digital actual, posibilitando la
+            <p class="text-center">
+                comunicación, el intercambio de información y el acceso a una amplia gama de recursos y servicios.</p>
+            <br>
+            <br>
+        </section>
+        <picture>
+            <source srcset="img/fotos/img_1.jpg" width="500px" media="(max-width: 600px)">
+            <img class="img_fondo_2"
+            src="https://www.une.edu.pe/tecnologia/wp-content/uploads/2019/02/lab103b-2000x1000.jpg" width="100%"
+            height="500px">
+        </picture>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br id="titulo02">
+        <br>
+        <br>
+        <br>
+        <h2 class="text-center text_h2 text-white" style="background-color: rgb(1, 1, 68);">Beneficios de una empresa de
+            computación y telecomunicaciones <br> _</h2>
+        <br><br><br>
+        <br>
+        <br>
+        <!-- Catartas -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card" style="background-color: rgb(1, 1, 68);">
+                    <img class="inimacion_img"
+                        src="https://st2.depositphotos.com/3396639/6920/i/450/depositphotos_69202465-stock-photo-man-working-on-his-laptop.jpg"
+                        class="card-img-top" alt="..." height="250">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: blue;">Soluciones integrales</h5>
+                        <p class="card-text parra_carta"> Ofrecemos soluciones completas que abarcan tanto las
+                            necesidades de computación como las de
+                            telecomunicaciones de tu empresa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="background-color: rgb(1, 1, 68);">
+                    <img class="inimacion_img"
+                        src="https://scontent.flim4-2.fna.fbcdn.net/v/t39.30808-6/242029124_840423203294572_5293438688022969138_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEz3Ny2fo46kL5P4a5njevvjdj42S7GrRqN2PjZLsatGhpGfo14emWaU0aUXufTIns4McRmkAtJTtkLMo8clQhW&_nc_ohc=hMF7AHp3088Ab44qdcs&_nc_ht=scontent.flim4-2.fna&oh=00_AfAjC4RL-r_b_86-M2qmRed7cdKqn1DYxIp0C8IpFrkqBQ&oe=661DB76E"
+                        height="250" class="card-img-top" alt="...">
+                    <div class="card-body parra_carta">
+                        <h5 class="card-title" style="color: blue;">Experiencia y conocimiento</h5>
+                        <p class="card-text parra_carta">Contamos con un equipo altamente calificado y experimentado en
+                            computación y telecomunicaciones.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="background-color: rgb(1, 1, 68);">
+                    <img class="inimacion_img"
+                        src="https://www.certus.edu.pe/blog/wp-content/uploads/2021/01/infraestructuras-de-la-tecnologi%CC%81a-de-informacio%CC%81n-CERTUS-1160x630.jpg"
+                        height="250" class="card-img-top" alt="...">
+                    <div class="card-body parra_carta">
+                        <h5 class="card-title parra_carta" style="color: blue;">Infraestructura moderna y segura</h5>
+                        <p class="card-text parra_carta">Te ofrecemos acceso a una infraestructura moderna y segura que
+                            te permite aprovechar las
+                            últimas tecnologías en telecomunicaciones.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card" style="background-color: rgb(1, 1, 68);">
+                    <img class="inimacion_img"
+                        src="https://skyone.b-cdn.net/wp-content/uploads/2023/05/beneficios-da-escalabilidade-1024x576.webp"
+                        height="250" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title parra_carta" style="color: blue;">Escalabilidad</h5>
+                        <p class="card-text parra_carta">Nuestras soluciones son escalables, lo que significa que pueden
+                            adaptarse a las necesidades cambiantes
+                            de tu empresa. Esto te permite crecer sin tener que preocuparte por la capacidad de tu
+                            infraestructura tecnológica.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="background-color: rgb(1, 1, 68);">
+                    <img class="inimacion_img"
+                        src="https://nodenet.es/sites/default/files/2023-08/por-qu%C3%A9-contratar-un-hosting-con-soporte-24-7.png"
+                        height="250" class="card-img-top" alt="...">
+                    <div class="card-body parra_carta">
+                        <h5 class="card-title" style="color: blue;">Soporte técnico 24/7</h5>
+                        <p class="card-text parra_carta">Te ofrecemos soporte técnico 24/7 para ayudarte a resolver
+                            cualquier problema que puedas tener con
+                            tus servicios de computación o telecomunicaciones. <br>.
+
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="background-color: rgb(1, 1, 68);">
+                    <img class="inimacion_img"
+                        src="https://www.sydle.com/blog/assets/post/gestion-de-telecomunicaciones-64e5ff387317ee348484d865/gestao-de-telecom-icon.jpg"
+                        height="250" class="card-img-top" alt="...">
+                    <div class="card-body parra_carta">
+                        <h5 class="card-title" style="color: blue;">Precios competitivos</h5>
+                        <p class="card-text parra_carta">Te ofrecemos precios competitivos que te permiten obtener el
+                            mejor valor por tu inversión en
+                            tecnología. Además de estos beneficios, una empresa de computación y telecomunicaciones
+                            puede ayudarte</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br id="titulo03">
+        <br>
+        <br>
+        <br>
+        <br>
+        <section id="impacto">
+            <h2 class="text-center">Impacto de la WCT en la sociedad</h2>
+            <br>
+            <p class="parrafo_todo">La WCT ha transformado radicalmente la forma en que vivimos, trabajamos, aprendemos
+                y nos relacionamos.
+                Ha democratizado el acceso a la información,
+            <p>
+            <p class="text-center">impulsado la innovación y creado nuevas oportunidades
+                económicas.</p>
+        </section>
+        <br>
+        <br>
+        <br>
+    </div style="align-items: center;">
+    <img class="img_señal" src="img/senati/señal.png" alt="img" style="margin-left: 25%;">
+    <img class="img_senati_5" src="img/senati/senati_5.png" style="margin-left  : 5%;" alt="img">
+    </div>
+    <hr>
+    <picture>
+        <source srcset="img/Banner/banner_movil_4.png" width="100%" media="(max-width: 600px)">
+        <img src="img/senati/senati_3.png" width="100%" alt="">
+    </picture>
+    <div id="titulo04">
+        <h3 class="titulo_final" style="color: aliceblue;">Empresas De telecomunicaciones <a class="link_comienzo"
+                href="#">Regresar</a>
+        </h3>
+
+        <hr>
+        <p class="parrafo_final">Las empresas de telecomunicaciones en Perú brindan servicios de comunicación
+            como telefonía, internet, televisión y radio. Las principales son Claro
+            , Movistar, Entel y Bitel, con otras como OMVs, operadores de infraestructura
+            , ISPs, empresas de cable y radiodifusoras. El mercado es regulado por OSIPTE
+            L y las tendencias son el crecimiento del internet móvil, la convergencia de
+            servicios y el desarrollo de nuevas tecnologías. Los desafíos son la brecha
+            digital, la infraestructura deficiente y la competencia desleal. Se espera
+            un futuro positivo con crecimiento del mercado impulsado por las nuevas
+            tecnologías.</p>
+    </div>
+    <br>
+    <br>
+    </body>
+
+</html>

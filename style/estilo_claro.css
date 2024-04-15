@@ -1,0 +1,21 @@
+.text_logo{
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    color: aliceblue;
+}
+.img_logo{
+    margin: 10px;
+}
+.linea_titulo{
+    position: absolute;
+    color: aliceblue;
+    z-index: 100;
+}
+.container-fluid{
+    background-color: rgb(241, 239, 239);
+}
+.nav-item{
+    margin: 50%;
+
+} 
